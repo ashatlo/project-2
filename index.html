@@ -1,21 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-     <meta name="viewport" content="wideth=device-width, initial-scale=1.0">
-     <title>Cleaner Step by step </title>
-     <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <section id="header">
-        <nav>
-            <a class="logo" href=""> sds</a>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">about us</a></li>
-                <li><a href="">Our Work</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
-        </nav>
-        </section>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+     <nav id="desktop-nav">
+        <a class="logo" href="#profile" ><img src="Assets\AJS-logos_black (1).png" alt="logo"></a>
+        <div>
+            <ul class="nav-menu">
+            <li><a href="#profile">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <nav id="burger-nav">
+        <a class="logo" href="#profile" ><img src="Assets\AJS-logos_black (1).png" alt="logo"></a>
+        <div class="burger-menu"> 
+     <div class="burger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links" > 
+        <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li></div>
+</div>
+</nav>
+<section id="profile">
+    <div class="section-pic">
+        <img src="Assets\concept-1868728_1280-fotor-2024010434519.png" alt="profile picture">
+    </div>
+    <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Ahmad Shatlo</h1>
+        <p class="section-text-p2">Backend Developer </p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./Assets/cv2.pdf ')">Download CV</button>
+           <button class="btn btn-color-1" onclick="location.href='./#conatct'">Contact me</button>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a> 
+            <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+         </div>
+    </div>
+</section>
+
+<section id="about">
+    <p class="section-text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section-pic">
+            <img src="Assets\business-2717063_1280.jpg" alt="About Image" class="about-pic"/></div>
+    
+    <div class="about-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <img src="Assets\experience.png " alt="experience icon" class="icon"/>
+              <h3>Experience</h3>
+              <p>1+ year<br />Backend Development</p>
+            </div>
+            <div class="details-container">
+                <img src="Assets/education.png " alt="education icon" class="icon"/>
+                <h3>Education</h3>
+                <p>Umschulung<br />Fachinformatiker Anwendungsentwicklung</p>
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+            After completing high school in Syria, I went to Russia to study medicine but later decided to discontinue my studies. 
+            Upon arriving in Germany,I worked in various industries while intensifying my longtime hobby,programming.
+             Over the past year and a half, I have particularly focused on C# and have published several projects on GitHub to deepen and share my skills.
+            In addition, I started an apprenticeship in Germany in January 2023, which I will complete in January 2025. 
+            Furthermore, I have created several websites using HTML and CSS, highlighting my skills in web development.
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+    <script src="script.js"></script>
+    
+</body>
+
 </html>
