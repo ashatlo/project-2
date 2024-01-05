@@ -16,12 +16,13 @@
             <ul class="nav-menu">
             <li><a href="#profile">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#project">Project</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#project">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
         </div>
     </nav>
-    <nav id="burger-nav">
+        <nav id="burger-nav">
         <a class="logo" href="#profile" ><img src="Assets\AJS-logos_black (1).png" alt="logo"></a>
         <div class="burger-menu"> 
      <div class="burger-icon" onclick="toggleMenu()">
@@ -32,10 +33,12 @@
     <div class="menu-links" > 
         <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#project" onclick="toggleMenu()">Projects</a></li>
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li></div>
 </div>
 </nav>
+
 <section id="profile">
     <div class="section-pic">
         <img src="Assets\concept-1868728_1280-fotor-2024010434519.png" alt="profile picture">
@@ -46,7 +49,7 @@
         <p class="section-text-p2">Backend Developer </p>
         <div class="btn-container">
             <button class="btn btn-color-2" onclick="window.open('./Assets/cv2.pdf ')">Download CV</button>
-           <button class="btn btn-color-1" onclick="location.href='./#conatct'">Contact me</button>
+           <button class="btn btn-color-1" onclick="location.href='#contact'">Contact me</button>
         </div>
         <div class="social-links">
             <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a> 
@@ -63,13 +66,12 @@
     <div class="section-container">
         <div class="section-pic">
             <img src="Assets\business-2717063_1280.jpg" alt="About Image" class="about-pic"/></div>
-    
-    <div class="about-details-container">
+                <div class="about-details-container">
         <div class="about-containers">
             <div class="details-container">
                 <img src="Assets\experience.png " alt="experience icon" class="icon"/>
               <h3>Experience</h3>
-              <p>1+ year<br />Backend Development</p>
+              <p>+1 year<br />Backend Development</p>
             </div>
             <div class="details-container">
                 <img src="Assets/education.png " alt="education icon" class="icon"/>
@@ -85,12 +87,124 @@
             In addition, I started an apprenticeship in Germany in January 2023, which I will complete in January 2025. 
             Furthermore, I have created several websites using HTML and CSS, highlighting my skills in web development.
             </p>
-        </div>
+        </div></div>
     </div>
 </div>
 </section>
-    <script src="script.js"></script>
-    
+
+<section id="experience">
+     <p class="section-text-p1">Find more about my</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="Assets\checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="Assets\checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+             </div>
+             <div class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="Assets\checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>C#</h3>
+                            <p>Intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="Assets\checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Microsoft SQL Service</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="Assets\checkmark.png" alt="Experience icon" class="icon"/>
+                        <div>
+                            <h3>Git</h3>
+                            <p>Basic</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+      </div>
+</section>
+
+<section id="project">
+    <p class="section-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+               
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="Assets\first-website.png" alt="Project 1" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">First website</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             </div>
+        </div> 
+
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="Assets\music-player-2951399_1280.jpg" alt="Project 3" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Music Player</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             </div>
+        </div>
+
+         <div class="details-container color-container">
+            <div class="article-container">
+                <img src="Assets\Math-quiz.png" alt="Project 2" class="project-img">
+            </div>
+            <h2 class="experience-sub-title project-title">Quiz Game</h2>
+            <div class="btn-container">
+                <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+             </div>
+        </div>
+    </div></div>
+</section>
+<section id="contact">
+    <div class="work-heading">
+        <h1 class="section-text-p1">Contact me</h1>
+    </div>
+    <form onsubmit="sendEmail()"; reset(); return false>
+<input type="text" placehoLder="Type Your Name">
+<input type="email" placehoLder="Type Your Email">
+<textarea placeholder="Type Your Message Here....."></textarea>
+<button type="submit" >Send</button>
+</form>
+<footer class="footer">
+ <p></p>
+ <ul>
+   <li><a href="https://www.w3schools.com/">FAQ </a></li>
+   <li><a href="ipressum.html">impresseum </a></li>
+   <li><a href="https://www.termsandconditionstemplate.net/live.php?token=GWrZbKcBPpqWKnOhF5x6MbAh5uD8u93L">Datenschutz </a></li>
+</ul>
+</footer>
+</section>
+
+<script src="script.js"></script>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 </body>
 
 </html>

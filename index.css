@@ -28,7 +28,7 @@ nav{
     position: fixed;
     justify-content: space-around;
      width: 100%;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 20px rgba(233, 231, 231, 0.795);
     z-index: 1;
     align-items: center;
     height: 14vh;
@@ -68,7 +68,7 @@ a:hover{
     flex-direction: column;
     justify-content: space-between;
     height: 24px;
-    width: 40px;
+    width: 30px;
     cursor: pointer;
 }
 .burger-icon span{
@@ -119,8 +119,8 @@ a:hover{
 }
 /************section****************/
 section {
-    padding-top: 4vh;
-    height: 96vh;
+    padding-top: 18vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -136,7 +136,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 90vh;
 }
 .section-pic{
     display: flex;
@@ -159,7 +159,7 @@ section {
     margin-bottom: 1rem;
 } 
 .title{
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
 }
 /************socials*************/
@@ -221,13 +221,13 @@ section {
 }
  /********** section-about*******/
 
-#about{
+ #about{
     position: relative;
 }
 .about-containers{
     gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .about-details-container{
     justify-content: center;
@@ -254,9 +254,129 @@ display: flex;
     gap: 4rem;
     height: 80%;
   }
-  
-  .section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+  /************* experience ****************/
+  #experience{
+   position: relative;
   }
+  .experience-sub-title{
+    color: rgb(85, 85,85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+  .experience-details-container{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+  }
+  article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+  }
+  article .icon{
+    cursor: default;
+  }
+    /************* project ****************/
+    #projects{
+        position: relative;
+    }
+    .color-container{
+        border-color: rgb(163, 163, 163);
+        background: rgb(250, 250, 250);
+    }
+    .project-img{
+        border-radius: 2rem;
+        width: 60%;
+        height: 60%;
+    } 
+     .project-title{
+        margin: 1rem;
+        color: black;
+    }
+    .project-btn{
+        color: black;
+        border-color: rgb(163, 163, 163);
+    }
+       /******************contact*****************/
+       #contact{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+   
+    }
+    #contact form{
+        width: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    #contact form input,#contact form textarea{
+        width: 800px; 
+        height: 50px;
+        margin: 5px 0px;
+        padding: 10px;
+        background-color: white;
+        color: black;
+        border-radius: 0.8rem;
+    }
+    #contact form textarea{
+        height: 150px;
+    }
+#contact form button{
+    margin: 10px;
+    height: 45px;
+    background-color: #030303;
+    color:rgb(255, 247, 247);
+    text-transform: uppercase;
+    width: 830px;
+    border-radius: 0.8rem;
+}
+/***********footer***********/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 10px; /* Adjust spacing between list items as needed */
+}
+
+.footer ul li:last-child {
+    margin-right: 0; /* Remove margin for the last list item */
+}
+
+.footer ul li a {
+    color: #0e0d0d;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+
