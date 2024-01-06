@@ -19,5 +19,5 @@ function sendEmail() {
         console.log('Email sending failed:', error);
         alert('Email sending failed. Please try again later.');
     });
-    AOS.init();
+
 }
