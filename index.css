@@ -57,7 +57,6 @@ a:hover{
 
 #burger-nav{
     display: none;
-
 }
 .burger-menu{
     position: relative;
@@ -352,9 +351,9 @@ display: flex;
     margin-top: 20px;
     width: 100%;
     background-color: white;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
-    padding: 10px 0; /* Adjust padding as needed */
+    padding: 10px 0;
 }
 
 .footer ul {
@@ -365,15 +364,15 @@ display: flex;
 
 .footer ul li {
     display: inline;
-    margin-right: 10px; /* Adjust spacing between list items as needed */
+    margin-right: 10px; 
 }
 
 .footer ul li:last-child {
-    margin-right: 0; /* Remove margin for the last list item */
+    margin-right: 0;
 }
 
 .footer ul li a {
-    color: #0e0d0d;
+    color: black;
     text-align: center;
     letter-spacing: 2px;
     text-transform: uppercase;

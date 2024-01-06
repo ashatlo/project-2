@@ -16,7 +16,7 @@
     #nav-menu {
       display: none;
     }
-    #burger-nav {
+      #burger-nav {
       display: flex;
     }
     #experience,
@@ -42,33 +42,57 @@
     .about-containers {
       margin-top: 0;
     }
+    #contact{
+      margin-bottom: 5rem;
+    }
   }
   
   @media screen and (max-width: 600px) {
-    #contact form,
-    footer {
-      height: 40vh;
-    }
+  
     #profile {
-      
-      height: 83vh;
-      margin-bottom: 1;
+      min-height: 40vh;
+      margin-bottom: 2rem;
     }
     article {
       font-size: 1rem;
     }
-    footer  {
-      height: fit-content;
-      
+    #contact form,
+    #contact form input,#contact form textarea
+     {
+      height: auto;
+      width: auto;
     }
-    .about-containers,
+    #contact form button{
+      height: 70%;
+      width: 50%;
+      margin-bottom: 10rem;
+    }
+    .footer {
+          width: 100%;
+          flex-direction: column;
+      }
+      
+    .footer ul li {
+        display: block;
+        margin: 0.5rem; /* Adjust as needed */
+    }
+      .footer ul li {
+          width: 100%;
+          display: block; /* Adjust as needed */
+      }
+      .about-pic , .profile-pic{
+       display: flex;
+        width:90% ;
+        height: 90%;
+        right: 0;
+        left: 0;
+        margin-bottom: 2rem;
+      }
+      .about-containers,
     .btn-container {
       flex-wrap: wrap;
     }
-    #contact form {
-      display: none;
-    }
-    #contact form,
+    #contact,
     .nav-links li a {
       font-size: 1rem;
     }
@@ -85,7 +109,7 @@
     }
     .section-pic-container {
       width: auto;
-      height: 46vw;
+      height: 40vh;
       justify-content: center;
     }
     .section-text-p2 {
