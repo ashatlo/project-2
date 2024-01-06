@@ -48,7 +48,6 @@
   }
   
   @media screen and (max-width: 600px) {
-  
     #profile {
       min-height: 40vh;
       margin-bottom: 2rem;
@@ -87,6 +86,7 @@
         right: 0;
         left: 0;
         margin-bottom: 2rem;
+        margin: 0 auto;
       }
       .about-containers,
     .btn-container {

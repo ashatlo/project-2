@@ -135,7 +135,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 90vh;
+    height: 100vh;
 }
 .section-pic{
     display: flex;
@@ -309,7 +309,7 @@ display: flex;
     }
        /******************contact*****************/
        #contact{
-        position: relative;
+       position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -329,7 +329,7 @@ display: flex;
         padding: 10px;
         background-color: white;
         color: black;
-        border-radius: 0.8rem;
+        border-radius: 1rem;
     }
     #contact form textarea{
         height: 150px;
@@ -348,7 +348,7 @@ display: flex;
     position: fixed;
     left: 0;
     bottom: 0;
-    margin-top: 20px;
+    margin-top: 0px;
     width: 100%;
     background-color: white;
     color: black;
@@ -364,7 +364,8 @@ display: flex;
 
 .footer ul li {
     display: inline;
-    margin-right: 10px; 
+    margin-right: 20px; 
+    font-weight: bold;
 }
 
 .footer ul li:last-child {
@@ -377,5 +378,6 @@ display: flex;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 
 
