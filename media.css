@@ -55,17 +55,6 @@
     article {
       font-size: 1rem;
     }
-    #contact form,
-    #contact form input,#contact form textarea
-     {
-      height: auto;
-      width: auto;
-    }
-    #contact form button{
-      height: 70%;
-      width: 50%;
-      margin-bottom: 10rem;
-    }
     .footer {
           width: 100%;
           flex-direction: column;
@@ -73,11 +62,11 @@
       
     .footer ul li {
         display: block;
-        margin: 0.5rem; /* Adjust as needed */
+        margin: 0.5rem; 
     }
       .footer ul li {
           width: 100%;
-          display: block; /* Adjust as needed */
+          display: block;
       }
       .about-pic , .profile-pic{
        display: flex;
@@ -95,6 +84,10 @@
     #contact,
     .nav-links li a {
       font-size: 1rem;
+    }
+    #contact .contact-info-upper-container {
+      margin-bottom: 5rem;
+
     }
     .experience-sub-title {
       font-size: 1.25rem;
